@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="338c2da4-1d3d-45fc-b5f6-1addb4c84f4c" name="Kwq">
+        <fileTransfer rootFolder="/usr/java/tomcat/apache-tomcat-8.5.72/webapps" accessType="SFTP" host="59.110.11.72" port="22" sshConfigId="12951332-12cc-4729-99c3-97cb6e56d8f8" sshConfig="kwq@59.110.11.72:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

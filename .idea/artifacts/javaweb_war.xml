@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaweb_war">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaweb_war</output-path>
+    <root id="archive" name="javaweb_war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.26" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.78" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="javaweb/web/Web" />
+    </root>
+  </artifact>
+</component>

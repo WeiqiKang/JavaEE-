@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.head-back{
+    background-color: black;
+
+}
+.head{
+    width: 80%;
+    /*background-color: red;*/
+    /*padding: 10px 0;*/
+    margin: 0 auto;
+}
+.head:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.head-left li{
+    float: left;
+
+}
+.head-left li:hover{
+    background-color: red;
+}
+.head-right li{
+    float: right;
+    padding: 10px 3px;
+    color: white;
+}
+.head-left a,.head-right a{
+    color: white;
+}
+.head-left a{
+    display: block;
+    padding: 10px 15px;
+}
+.head-right a:hover{
+    color: orange;
+}
