@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class DatabaseServlet extends HttpServlet {
 
-    String url = "jdbc:mysql://59.110.11.72:3306/RGStudent?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSI=true";
+    String url = "jdbc:mysql://localhost:3306/RGStudent?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSI=true";
     String username_0 = "root";
     String password_0 = "123456";
     Connection connection = null;
